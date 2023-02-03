@@ -16,7 +16,8 @@ export default function Intro({ profile }) {
           {profile.personal.name}
         </h1>
         <h4 className="text-center md:text-left text-lg mt-5 md:pl-8">
-          See my blog {' '}
+          See my work {' '}
+         
           <a
             href={profile.url}
             className="underline hover:text-success duration-200 transition-colors"
@@ -26,7 +27,7 @@ export default function Intro({ profile }) {
           .
         </h4>
         <h4 className="text-center md:text-left text-lg mt-5 md:pl-8">
-          See my work {' '}
+           See my blog {' '}
           <a
             href='https://andrea-next-contentful-demo.netlify.app/'
             className="underline hover:text-success duration-200 transition-colors"
