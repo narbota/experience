@@ -12,6 +12,8 @@ export default function Index({ allExperience, profile }) {
       <Layout>
         <Head>
           <title>{profile.personal.name}'s Portfolio</title>
+        //inject new relic script
+        
         </Head>
         <Container>
           <Intro profile={profile} />
